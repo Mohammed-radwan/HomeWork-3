@@ -1,0 +1,465 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 0.2rem;
+    margin: 0 3rem ;
+}
+h1{
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+    color: rgb(37, 150, 75);
+    padding: 2rem;
+}
+p{
+    font-family: "Montserrat",sans-serif;
+}
+h2{
+    text-align: center;
+    color: rgb(24, 27, 21);
+    padding:2rem 0;
+    font-family: 'Sue Ellen Francisco', cursive;
+    line-height: 2.3rem;
+}  
+h4{
+    font-family: "Montserrat",sans-serif;
+    text-decoration: none;
+    font-size: 0.8rem;   
+    text-transform: uppercase;
+    letter-spacing:0.05rem;
+    padding-bottom: 0.8rem;
+}  
+span{
+    font-size: 0.8rem;
+    color: #1d1c1c;
+}
+a{
+    text-decoration: none;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++
+                    DESKTOP SCREEENS
+  ++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/*-------------Moomin Museum Icon-------------------*/
+.main-icon{
+    float: right;
+}
+/*------------------First block---------------------*/
+.frontfixed{
+    justify-content: center;
+    margin: -2rem auto;
+    background-color: white;
+    z-index: 1;
+    padding: 2rem 0;
+    width: 80%; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image1{
+    margin-top: 1rem;
+}
+.image2{
+    margin-top: -11rem;
+}
+.greenpara p { 
+    font-size: 1rem;
+    color:white;
+    background-color: #35733c;
+    padding: 1rem 0.2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+    /* EXHIPITIONS BAR */
+    /* +++++++++++++++++++++++++++++++++++++++++++++++ */
+.eyes{
+    display: flex;
+    background-color: #363636;
+    justify-content: space-around;
+    align-items: center;
+}
+.eyes h1{
+    color: white;
+}
+.slidingimages{
+    display: flex;
+    flex-wrap: wrap;
+}
+.slidingimages img{
+    width: 100%;
+}
+.slidingimages div:first-child{
+    width: 50%; 
+}
+.slidingimages div:nth-child(n+2){
+    width: 25%;
+}
+.slidingimages p{
+    text-align: justify;
+    font-size: medium;
+}
+.slidingimages div p,h2{
+    padding: 0.6rem;
+    color:#000c;
+}
+/* News Section */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.news{
+    flex-wrap: wrap;
+    background-color: #7ab7bc;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+.news1 ,.news2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news1 a{
+    width:60%;
+    text-decoration: none;
+    padding: 1rem;
+    color: #1d1c1c;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+.subnews2{
+    width: 60%;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.news h3{
+    color: white;
+    font-size: 0.7rem;
+}
+.news h2{
+    padding: 1rem 1rem;
+    color: #120e0eb3;
+    font-size: 2rem;
+}
+.news p{
+    font-size: 0.9rem;
+}
+/*------------------Orange Cirle---------------------*/
+.circle-orange {
+    background: #e94e0f;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: 'Princess Sofia', cursive;   
+}
+.circle-orange a{
+    color: white;
+    margin: 0;
+}
+/* More Information Section */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.moreinfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.moreinfo img{
+    width: 100%;
+}
+.moreinfo div{
+    display: flex;
+}
+.moreinfo div p{
+    padding: 1rem;
+    width: auto;
+    text-align: justify;
+} 
+.moreinfo span{
+    font-size: 2rem;
+    font-weight: bold;
+    color: green;
+    font-family: 'Sue Ellen Francisco', cursive;
+    display: block;
+    text-align: center;
+}
+ .article nav{
+     width: 50%
+    }
+.article2 p{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.2rem;
+}
+.moreinfo .article2 p{
+    text-align: center;
+}
+
+/*Footer*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*-----------------Footer Icons class ---------------*/
+.icons img{
+    width: 100%;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg");
+    padding: 4rem;
+    color: #fff;
+}
+.footer-nav div li{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat",sans-serif;
+    font-size: 0.8rem;
+}
+.footer-nav div li:hover{
+    text-decoration-line: underline;
+}
+.footer-nav div{
+    padding: 1rem;
+}
+.footer-nav a{
+    color: #fff;
+}
+.btn{
+    border: 0.1rem solid white;
+    margin:1rem 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 0.75rem;
+    width: 6rem;
+}
+.mediainfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mediainfo  li a{
+    color: #35733c;
+    text-decoration: none;
+    padding: 0.7rem;
+}
+.mediainfo .mediaicons ul{
+    display: flex;
+    list-style: none;
+}
+.museumicon{
+    padding-top: 1rem;
+}
+/* Top Navigation Bar */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#main-nav{
+    margin-top: 1rem;
+}
+#main-nav a{
+    color: rgb(36, 18, 18);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: left;
+    transition: background 0.4s;
+    height:2.2rem;
+    font-weight: 400;
+    font-family: "Montserrat",sans-serif;
+    font-size: 0.89rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+#main-nav ul li ul a {
+    background-color: #35733c;
+    color: rgb(255, 255, 255);
+}
+#main-nav ul li a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(60, 184, 39);
+}
+
+#main-nav ul {
+    display: flex;
+    list-style: none;
+}
+#main-nav li {
+    width: 13rem;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+#main-nav li:hover .sub-menu li{
+    display: block;
+    top :0rem;
+    
+}
+.sub-menu li{
+    display: none;
+    position: absolute;
+}
+.sub-menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+.arrow{
+    margin-left: 0.2rem;
+    color: rgb(34, 83, 24);
+    font-size: 1rem;
+}
+.menuicon ,.menucheck ,.navmobile{
+    display: none;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++
+                    IBAD-PHONE SCREEENS
+  ++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media only screen and (max-width:1000px){
+    
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    /* Top Navigation Bar */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+    #main-nav ,.navmobile{
+        display: none; 
+    }
+    .navmobile{
+        margin-top: 1.25rem;
+    }
+    .menucheck:checked ~.navmobile{
+        display: block;
+    }
+    .menuicon{
+        display: inline-block;
+        top: 5rem;
+        left:0.5rem;
+        cursor: pointer;
+        font-size: 2.5rem;
+        color: #006e64;
+        margin-top: 0.7rem;
+    }
+    .item input{
+        display: none;
+    }
+    .item label,.justitem{
+        padding: 1rem;
+        background-color: rgb(102, 173, 118);
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: white;
+        font-family: "Montserrat",sans-serif;
+    }
+    .justitem{
+        text-decoration: none;
+    }    
+    .item label:hover, .justitem:hover{
+        color: black;
+        background-color: seagreen;
+    }
+    .item ul{
+        max-height: 0;
+        overflow: hidden;
+        text-align: center;
+    }
+    .item ul li a{
+        background-color:rgb(155, 215, 151);
+        display: block;
+        text-decoration: none;
+        padding: 0.8rem;
+        color: rgb(31, 28, 28)
+    }
+    .item ul li a:hover{
+        background-color: #2daf58;
+    }
+    .item input:checked ~ ul{
+        max-height: 25rem;
+    }
+    .arrow-mobile{
+        color: white;
+        font-size: 1.3rem;
+        padding-left: 1rem;
+    }
+ /* CONTENTS */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    .container{
+        margin: 0 auto;
+    }
+    .image2,.image1{
+        margin:0;
+        width: 100%;
+    }
+    .frontfixed{
+        width: 100%;
+    }
+    .slidingimages div:nth-child(n+1) {
+        width: 50%;
+    }
+    .moreinfo div{
+        flex-direction: column;
+    }
+    
+   .frontfixed{
+       flex-direction: column;
+    }
+    .footer-nav {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-nav div{
+        width: 33.3%;
+    }
+    h4{
+        font-size: 0.58rem;    
+    }
+    .icons{
+        align-items: center;
+        flex-direction: column;
+    }
+    .article nav{
+        width: 100%;
+    }
+    .news {
+        display: block;
+        background-color: #7ab7bc;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+    .news1 ,.news2{
+        display: flex;
+        flex-direction: column;
+    }
+}  
+
+ 
